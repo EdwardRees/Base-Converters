@@ -1,0 +1,101 @@
+c++    -c -o binary.o binary.cpp
+In file included from binary.cpp:6:
+In file included from ./decimal.h:2:
+In file included from /usr/local/include/boost/multiprecision/cpp_int.hpp:12:
+In file included from /usr/local/include/boost/multiprecision/number.hpp:13:
+In file included from /usr/local/include/boost/multiprecision/detail/precision.hpp:9:
+In file included from /usr/local/include/boost/multiprecision/traits/is_variable_precision.hpp:9:
+In file included from /usr/local/include/boost/multiprecision/detail/number_base.hpp:13:
+/usr/local/include/boost/multiprecision/traits/transcendental_reduction_type.hpp:14:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+   using type = T;
+                ^
+In file included from binary.cpp:6:
+In file included from ./decimal.h:2:
+In file included from /usr/local/include/boost/multiprecision/cpp_int.hpp:12:
+In file included from /usr/local/include/boost/multiprecision/number.hpp:13:
+In file included from /usr/local/include/boost/multiprecision/detail/precision.hpp:9:
+In file included from /usr/local/include/boost/multiprecision/traits/is_variable_precision.hpp:9:
+In file included from /usr/local/include/boost/multiprecision/detail/number_base.hpp:14:
+/usr/local/include/boost/multiprecision/traits/std_integer_traits.hpp:49:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+   using type = unsigned __int128;
+                ^
+/usr/local/include/boost/multiprecision/traits/std_integer_traits.hpp:54:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+   using type = unsigned __int128;
+                ^
+/usr/local/include/boost/multiprecision/traits/std_integer_traits.hpp:59:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+   using type = __int128;
+                ^
+/usr/local/include/boost/multiprecision/traits/std_integer_traits.hpp:64:17: warning: alias declarations are a C++11 extension [-Wc++11-extensions]
+   using type = __int128;
+                ^
+In file included from binary.cpp:6:
+In file included from ./decimal.h:2:
+In file included from /usr/local/include/boost/multiprecision/cpp_int.hpp:12:
+In file included from /usr/local/include/boost/multiprecision/number.hpp:13:
+In file included from /usr/local/include/boost/multiprecision/detail/precision.hpp:9:
+In file included from /usr/local/include/boost/multiprecision/traits/is_variable_precision.hpp:9:
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:27:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_RVALUE_REFERENCES being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_RVALUE_REFERENCES being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:30:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_TEMPLATE_ALIASES being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_TEMPLATE_ALIASES being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:36:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_HDR_TYPE_TRAITS being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_HDR_TYPE_TRAITS being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:39:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_ALLOCATOR being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_ALLOCATOR being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:42:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_CONSTEXPR being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_CONSTEXPR being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:48:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_REF_QUALIFIERS being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_REF_QUALIFIERS being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:51:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_HDR_FUNCTIONAL being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_HDR_FUNCTIONAL being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:54:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_VARIADIC_TEMPLATES being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_VARIADIC_TEMPLATES being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:57:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_USER_DEFINED_LITERALS being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_USER_DEFINED_LITERALS being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:60:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_DECLTYPE being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_DECLTYPE being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:63:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_STATIC_ASSERT being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_STATIC_ASSERT being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:66:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_DEFAULTED_FUNCTIONS being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_DEFAULTED_FUNCTIONS being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:69:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_NOEXCEPT being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_NOEXCEPT being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:72:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_REF_QUALIFIERS being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_REF_QUALIFIERS being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:75:2: error: "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_USER_DEFINED_LITERALS being set"
+#error "This library now requires a C++11 or later compiler - this message was generated as a result of BOOST_NO_CXX11_USER_DEFINED_LITERALS being set"
+ ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:92:13: warning: thread_local on mingw is broken, please use MSys mingw gcc-9 or later, see https://sourceforge.net/p/mingw-w64/bugs/527/ [-W#pragma-messages]
+#pragma GCC warning "thread_local on mingw is broken, please use MSys mingw gcc-9 or later, see https://sourceforge.net/p/mingw-w64/bugs/527/"
+            ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:179:11: error: unknown type name 'constexpr'
+   static constexpr const expression_template_option value = et_on;
+          ^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:179:53: error: expected ';' at end of declaration list
+   static constexpr const expression_template_option value = et_on;
+                                                    ^
+                                                    ;
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:236:1: error: unknown type name 'constexpr'
+constexpr typename std::enable_if<(boost::multiprecision::detail::is_signed<T>::value || std::is_floating_point<T>::value), T>::type abs(T t) noexcept
+^
+/usr/local/include/boost/multiprecision/detail/number_base.hpp:236:142: error: expected ';' at end of declaration
+constexpr typename std::enable_if<(boost::multiprecision::detail::is_signed<T>::value || std::is_floating_point<T>::value), T>::type abs(T t) noexcept
+                                                                                                                                             ^
+                                                                                                                                             ;
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+6 warnings and 20 errors generated.
+make: *** [binary.o] Error 1
